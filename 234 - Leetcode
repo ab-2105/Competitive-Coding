@@ -1,6 +1,15 @@
+intuition
 
+1. Find Middle: Move fast by 2 and slow by 1; slow stops at the midpoint.
 
+2. Reverse Half: Reverse all pointers from slow to the end in-place.
 
+3. Compare: Walk from head and reversed tail simultaneously; match all values.
+
+4. Return: true if all match, false if any differ.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
 
 
 CODE :- 
